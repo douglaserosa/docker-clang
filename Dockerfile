@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Douglas Eduardo Rosa douglas.erosa@gmail.com
+LABEL maintainer="Douglas Eduardo Rosa douglas.erosa@gmail.com"
 
 RUN apt-get update
 RUN apt-get upgrade -y
